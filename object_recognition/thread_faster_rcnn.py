@@ -14,12 +14,12 @@ import imutils
 
 sys.path.append("..")
 
-MODEL_NAME = '/home/pcroot/Documents/models/research/object_detection/left_luggage/final2_training'
+MODEL_NAME = '/home/pcroot/Desktop/models/research/object_detection/left_luggage/final2_training'
 # Path to frozen detection graph. This is the actual model that is used for the object detection.
 PATH_TO_CKPT = MODEL_NAME + '/frozen_inference_graph.pb'
 
 # List of the strings that is used to add correct label for each box.
-PATH_TO_LABELS = os.path.join('/home/pcroot/Documents/models/research/object_detection/training', 'object-detection.pbtxt')
+PATH_TO_LABELS = os.path.join('/home/pcroot/Desktop/models/research/object_detection/training', 'object-detection.pbtxt')
 
 NUM_CLASSES = 2
 # import the Queue class from Python 3
